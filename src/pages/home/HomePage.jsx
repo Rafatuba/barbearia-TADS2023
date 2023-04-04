@@ -2,7 +2,9 @@ import logoBarber from './../../assets/barber-logo-2.png';
 import './HomePage.css'
 
 function HomePage() {
+    let url = ""
   return (
+
     <div className='logo'>
       
 
@@ -16,19 +18,19 @@ function HomePage() {
                     <h1 className='machos'>Machos Barbearia</h1>
                      <img className='logobarber' src={logoBarber} alt="" />
                       <li>
-                          <a href="" class="active"><span class="las la-igloo"></span>
+                          <a href={url} className="active"><span className="las la-igloo"></span>
                               <span>Dashboard</span></a>
                       </li>
                       <li>
-                          <a href=""><span class="las la-users"></span>
+                          <a href={url}><span className="las la-users"></span>
                               <span>Colaboradores</span></a>
                       </li>
                       <li>
-                          <a href=""><span class="las la-clipboard-list"></span>
+                          <a href={url}><span class="las la-clipboard-list"></span>
                               <span>Atendimentos</span></a>
                       </li>
                       <li>
-                          <a href=""><span class="las la-shipping-bag"></span>
+                          <a href={url}><span class="las la-shipping-bag"></span>
                               <span>Avaliações</span></a>
                       </li>
                       
